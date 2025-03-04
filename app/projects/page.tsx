@@ -50,7 +50,7 @@ const projects = [
         description: "A server and container management SSH, SFTP client",
         image: "https://i.ibb.co/p6wKGWZV/Screenshot-2025-03-03-at-23-25-32.png",
         tags: ["Electron", "React", "TypeScript", "Tailwind"],
-        demoUrl: "https://szazlo.github.io/seraph-web/",
+        demoUrl: "https://seraph.davidwilson.dev",
         githubUrl: "https://github.com/Szazlo/seraph-web",
         featured: true
     }

@@ -134,7 +134,7 @@ export default function Home() {
                   <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-xs font-medium text-primary">TypeScript</span>
                   <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-xs font-medium text-primary">Supabase</span>
                 </div>
-                <Link href="https://szazlo.github.io/seraph-web/" className="inline-flex items-center text-sm font-medium text-primary">
+                <Link href="https://seraph.davidwilson.dev" className="inline-flex items-center text-sm font-medium text-primary">
                   View Project <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
