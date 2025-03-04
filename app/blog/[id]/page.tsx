@@ -5,6 +5,8 @@ import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { notFound } from "next/navigation";
+import { Twitter, Linkedin, Mail } from "lucide-react";
+import { GetStaticPaths, GetStaticProps } from "next";
 
 // Blog post data
 const blogPosts = [
@@ -30,7 +32,7 @@ const blogPosts = [
       // Server Component
       export default async function ProductList() {
         const products = await getProducts();
-        
+
         return (
           <div>
             {products.map(product => (
@@ -49,7 +51,7 @@ const blogPosts = [
 
       export default function ProductCard({ product }) {
         const [isExpanded, setIsExpanded] = useState(false);
-        
+
         return (
           <div onClick={() => setIsExpanded(!isExpanded)}>
             <h2>{product.name}</h2>
@@ -71,7 +73,7 @@ const blogPosts = [
           queryKey: ['products'],
           queryFn: fetchProducts,
         });
-        
+
         const mutation = useMutation({
           mutationFn: addProduct,
           onSuccess: () => {
@@ -79,10 +81,10 @@ const blogPosts = [
             queryClient.invalidateQueries({ queryKey: ['products'] });
           },
         });
-        
+
         if (isLoading) return <div>Loading...</div>;
         if (error) return <div>Error: {error.message}</div>;
-        
+
         return (
           <div>
             {data.map(product => (
@@ -107,7 +109,7 @@ const blogPosts = [
 
       function Tabs({ children, defaultIndex = 0 }) {
         const [activeIndex, setActiveIndex] = useState(defaultIndex);
-        
+
         return (
           <TabsContext.Provider value={{ activeIndex, setActiveIndex }}>
             {children}
@@ -121,7 +123,7 @@ const blogPosts = [
 
       function Tab({ index, children }) {
         const { activeIndex, setActiveIndex } = useContext(TabsContext);
-        
+
         return (
           <button
             className={\`tab \${activeIndex === index ? 'active' : ''}\`}
@@ -138,7 +140,7 @@ const blogPosts = [
 
       function TabPanel({ index, children }) {
         const { activeIndex } = useContext(TabsContext);
-        
+
         return activeIndex === index ? <div className="tab-panel">{children}</div> : null;
       }
 
@@ -252,14 +254,14 @@ const blogPosts = [
       \`\`\`typescript
       type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
       type Endpoint = '/users' | '/posts' | '/comments';
-      
+
       // Creates types like 'GET /users', 'POST /users', etc.
       type ApiRoute = \`\${HttpMethod} \${Endpoint}\`;
-      
+
       function fetchApi(route: ApiRoute) {
         // Implementation
       }
-      
+
       fetchApi('GET /users'); // Valid
       fetchApi('PATCH /users'); // Error: Argument of type '"PATCH /users"' is not assignable to parameter of type 'ApiRoute'.
       \`\`\`
@@ -326,7 +328,7 @@ const blogPosts = [
 
       export default async function ProductsPage() {
         const products = await getProducts();
-        
+
         return (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {products.map(product => (
@@ -347,15 +349,15 @@ const blogPosts = [
 
       export default function AddToCartButton({ productId }) {
         const [isLoading, setIsLoading] = useState(false);
-        
+
         const handleAddToCart = async () => {
           setIsLoading(true);
           await addToCart(productId);
           setIsLoading(false);
         };
-        
+
         return (
-          <button 
+          <button
             onClick={handleAddToCart}
             disabled={isLoading}
           >
@@ -395,9 +397,15 @@ const blogPosts = [
   }
 ];
 
+export async function generateStaticParams() {
+  return blogPosts.map(post => ({
+    id: post.id
+  }));
+}
+
 export default function BlogPostPage({ params }: { params: { id: string } }) {
-  const post = blogPosts.find(p => p.id === params.id);
-  
+    const post = blogPosts.find(p => p.id === params.id);
+
   if (!post) {
     notFound();
   }

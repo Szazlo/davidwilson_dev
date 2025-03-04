@@ -45,7 +45,6 @@ export default function BlogPage() {
             Thoughts, insights, and tutorials on web development, design, and technology.
           </p>
         </div>
-
         {/*/!* Featured Posts *!/*/}
         {/*<section className="mb-16 max-w-6xl mx-auto">*/}
         {/*  <h2 className="text-2xl font-bold mb-8">Featured Posts</h2>*/}
@@ -119,8 +118,8 @@ export default function BlogPage() {
             {/*    </div>*/}
             {/*  </div>*/}
             {/*))}*/}
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7302370997662363648" className="w-full h-96" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7291611065283432449" className="w-full h-96" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7302370997662363648" className="w-full h-96" frameBorder="0" title="Embedded post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7291611065283432449" className="w-full h-96" frameBorder="0" title="Embedded post"></iframe>
           </div>
         </section>
       </div>
