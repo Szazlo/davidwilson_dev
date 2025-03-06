@@ -21,15 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <PostHogProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="flex min-h-screen flex-col">
-              <Navbar />
-              <main className="flex-1 w-full">{children}</main>
-              <Footer />
-            </div>
+            <PostHogProvider>
+              <div className="flex min-h-screen flex-col">
+                <Navbar />
+                <main className="flex-1 w-full">{children}</main>
+                <Footer />
+              </div>
+            </PostHogProvider>
           </ThemeProvider>
-        </PostHogProvider>
       </body>
     </html>
   );
