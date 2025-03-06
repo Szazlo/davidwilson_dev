@@ -9,7 +9,7 @@ if (typeof window !== 'undefined') {
   })
 }
 
-export default function PHProvider({ children }) {
+export default function PHProvider({ children }: { children: React.ReactNode }) {
     return (
         <PostHogProvider client={posthog}>
             {children}
