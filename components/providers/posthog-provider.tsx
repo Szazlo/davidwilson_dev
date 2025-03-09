@@ -7,8 +7,8 @@ import PostHogPageView from './PHPageView'
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
     useEffect(() => {
-        posthog.init('phc_E52Wqg32qIJQKjTKleXNWMaL7787sgRcEeDmGRP7nxW', {
-            api_host: 'https://eu.i.posthog.com',
+        posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY || '', {
+            api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || '',
             capture_pageview: false // Disable automatic pageview capture, as we capture manually
         })
     }, [])
