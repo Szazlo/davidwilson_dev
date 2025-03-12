@@ -20,7 +20,7 @@ export default function ResumePage() {
         </p>
         <div className="flex gap-4 mt-4">
           <Button asChild>
-            <a href="/resume.pdf" download>
+            <a href="/David_Wilson_CV.pdf" download>
               <Download className="mr-2 h-4 w-4" /> Download PDF
             </a>
           </Button>
@@ -169,7 +169,7 @@ export default function ResumePage() {
         <TabsContent value="pdf" className="h-[800px] md:h-[1000px] w-full">
           <div className="w-full h-full bg-white rounded-lg border shadow-sm overflow-hidden">
             <iframe 
-              src="/resume.pdf" 
+              src="/David_Wilson_CV.pdf"
               className="w-full h-full" 
               title="Resume PDF"
             />
@@ -179,7 +179,7 @@ export default function ResumePage() {
 
       <div className="flex justify-center mt-8">
         <Button asChild>
-          <a href="/resume.pdf" download>
+          <a href="/David_Wilson_CV.pdf" download>
             <Download className="mr-2 h-4 w-4" /> Download Resume
           </a>
         </Button>
