@@ -40,7 +40,7 @@ export default function ContactPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({content: formData}),
       });
 
       if (!response.ok) {
