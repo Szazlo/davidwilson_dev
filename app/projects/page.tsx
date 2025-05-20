@@ -14,6 +14,16 @@ const projects = [
         githubUrl: "https://github.com/Szazlo/delphi-frontend",
         featured: true
     },
+  {
+    id: "nginx",
+    title: "Nginx Log Analyzer",
+    description: "An automated NGINX log analysis tool that provides insights unusual traffic patterns and anomalies. Providing insights via a user friendly dashboard.",
+    image: "https://ibb.co/TxDBfBB9",
+    tags: ["React", "TypeScript", "Tailwind", "ShadCn", "Node.js", "Rechart"],
+    demoUrl: "https://nginx.davidwilson.dev/",
+    githubUrl: "https://github.com/Szazlo/nginx-hackathon",
+    featured: true
+  },
     {
     id: "portfolio",
     title: "Developer Portfolio",
