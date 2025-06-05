@@ -38,7 +38,7 @@ const projects = [
         id: "orisis",
         title: "Sands of Orisis",
         description: "Real Time Strategy game developed in Godot 4",
-        image: "https://private-user-images.githubusercontent.com/65133392/311442500-0f71f2ca-118c-484a-8105-4f7617575e10.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEwNDM5NTQsIm5iZiI6MTc0MTA0MzY1NCwicGF0aCI6Ii82NTEzMzM5Mi8zMTE0NDI1MDAtMGY3MWYyY2EtMTE4Yy00ODRhLTgxMDUtNGY3NjE3NTc1ZTEwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzAzVDIzMTQxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4OTIwOTUzZGY2MWI4NGFhZGM5ODc3NTllMzgwNjFiMzI0NjQ4M2M5OTA2ZWIyYzY2ZWJjYWVjZWM0ZWNhY2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._gytJ7MCd1RXEJtdD9v4Ej3poONfnUneq4zDPJNB-Q8",
+        image: "https://i.ibb.co/CDxrXhY/CS3305-Team-2-Game-Art.png",
         tags: ["Godot"],
         demoUrl: "#",
         githubUrl: "https://github.com/colmmurphyxyz/CS3305-2024-Team-2",
