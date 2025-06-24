@@ -13,7 +13,7 @@ export default function Home() {
               Hi, I'm <span className="text-primary">David Wilson</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-[700px]">
-              Final Year Computer Science Student & Software Developer
+              Software Engineer @ FleetOps | Computer Science graduate
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-6">
               <Button asChild size="lg">
@@ -154,7 +154,6 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-4 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter">Looking for opportunities</h2>
             <p className="text-muted-foreground max-w-[600px]">
-              I'm currently seeking graduate roles and entry-level positions in software development.
               If you're interested in working together, get in touch!
             </p>
             <Button asChild size="lg" className="mt-4">
