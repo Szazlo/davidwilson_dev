@@ -10,10 +10,10 @@ export default function Home() {
         <div className="container px-4 md:px-6 mx-auto max-w-7xl">
           <div className="flex flex-col items-center text-center space-y-4 md:space-y-6 max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl font-bold tracking-tighter">
-              Hi, I'm <span className="text-primary">David Wilson</span>
+              Hi, I&#39;m <span className="text-primary">David Wilson</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-[700px]">
-              Software Engineer @ FleetOps | Computer Science graduate
+              Software Engineer @ FleetOps | BSc Computer Science
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-6">
               <Button asChild size="lg">
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter mb-4">My Skills</h2>
             <p className="text-muted-foreground max-w-[700px]">
-              I've developed a diverse skill set through coursework, internships, and personal projects.
+              I&#39;ve developed a diverse skill set through coursework, internships, and personal projects.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
@@ -154,7 +154,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-4 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter">Looking for opportunities</h2>
             <p className="text-muted-foreground max-w-[600px]">
-              If you're interested in working together, get in touch!
+              If you&#39;re interested in working together, get in touch!
             </p>
             <Button asChild size="lg" className="mt-4">
               <Link href="/contact">Contact Me</Link>
