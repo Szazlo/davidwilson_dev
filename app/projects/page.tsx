@@ -20,7 +20,7 @@ const projects = [
     description: "An automated NGINX log analysis tool that provides insights unusual traffic patterns and anomalies. Providing insights via a user friendly dashboard.",
     image: "https://i.ibb.co/MxyDvDDF/Screenshot-2025-05-20-at-13-48-17.png",
     tags: ["React", "TypeScript", "Tailwind", "ShadCn", "Node.js", "Rechart"],
-    demoUrl: "https://nginx.davidwilson.dev/",
+    demoUrl: "https://nginxdashboard.netlify.app/",
     githubUrl: "https://github.com/Szazlo/nginx-hackathon",
     featured: true
   },
@@ -60,7 +60,7 @@ const projects = [
         description: "A server and container management SSH, SFTP client",
         image: "https://i.ibb.co/p6wKGWZV/Screenshot-2025-03-03-at-23-25-32.png",
         tags: ["Electron", "React", "TypeScript", "Tailwind"],
-        demoUrl: "https://seraph.davidwilson.dev",
+        demoUrl: "https://seraphapp.netlify.app/",
         githubUrl: "https://github.com/Szazlo/seraph-web",
         featured: true
     }
