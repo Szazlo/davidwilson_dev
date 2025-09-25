@@ -13,7 +13,7 @@ export default function Home() {
               Hi, I&#39;m <span className="text-primary">David Wilson</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-[700px]">
-              Software Engineer @ FleetOps | BSc Computer Science
+              Backend Software Engineer | BSc Computer Science
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-6">
               <Button asChild size="lg">
