@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">David Wilson</h3>
             <p className="text-muted-foreground">
-              Computer Science graduate & software developer showcasing projects, skills, and experience.
+              Backend Software Engineer & Computer Science graduate showcasing projects, skills, and experience.
             </p>
           </div>
           <div className="sm:col-span-2 md:col-span-1">
