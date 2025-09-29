@@ -41,54 +41,55 @@ export default function Home() {
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Code className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
+              <h3 className="text-xl font-semibold mb-2">Programming Languages</h3>
               <p className="text-muted-foreground text-center">
-                React, Next.js, TypeScript, Tailwind CSS
+                Python, Java, JavaScript/TypeScript, C
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-card rounded-lg border shadow-sm">
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Database className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
+              <h3 className="text-xl font-semibold mb-2">Web Development</h3>
               <p className="text-muted-foreground text-center">
-                Node.js, SpringBoot, PostgreSQL, MongoDB
+                Spring Boot, Flask, Vaadin, React, Vite, Tailwind, Bootstrap
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-card rounded-lg border shadow-sm">
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Layout className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">UI/UX Design</h3>
+              <h3 className="text-xl font-semibold mb-2">Databases</h3>
               <p className="text-muted-foreground text-center">
-                Figma, Adobe XD
+                PostgreSQL, MySQL, MongoDB, SQLite, H2, Firestore, BigQuery
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-card rounded-lg border shadow-sm">
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Globe className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">DevOps</h3>
+              <h3 className="text-xl font-semibold mb-2">Cloud & DevOps</h3>
               <p className="text-muted-foreground text-center">
-                Docker, CI/CD, AWS, Vercel
+                Google Cloud (Cloud Run, Firestore, Functions, Pub/Sub, BigQuery), AWS (EC2, RDS, VPC, IAM),
+                Docker, Kubernetes, CI/CD
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-card rounded-lg border shadow-sm">
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Layers className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Tools & Applications</h3>
+              <h3 className="text-xl font-semibold mb-2">Data Engineering</h3>
               <p className="text-muted-foreground text-center">
-                VSCode, JetBrains, Github, Gitlabs, Insomnia, Lens, Docker, Kubernetes
+                Apache Beam, ETL pipelines, Web scraping
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-card rounded-lg border shadow-sm">
               <div className="p-3 rounded-full bg-primary/10 mb-4">
                 <Zap className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Programming Languages</h3>
+              <h3 className="text-xl font-semibold mb-2">System Administration & Tools</h3>
               <p className="text-muted-foreground text-center">
-                Python, Java, C, Go
+                Linux, Git/GitLab/GitHub, Bash, JetBrains IDEs, VSCode, Insomnia/Postman, Lens
               </p>
             </div>
           </div>

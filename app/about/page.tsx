@@ -46,14 +46,11 @@ export default function AboutPage() {
             <section>
               <h1 className="text-3xl md:text-4xl font-bold mb-6">About Me</h1>
               <div className="prose dark:prose-invert max-w-none">
-                <p className="text-lg leading-relaxed mb-4">
-                  Hello! I&apos;m a graduate of Computer Science from University College Cork (UCC), and a Software Engineer at FleetOps. eager to gain practical experience in the field through graduate roles and other opportunities.
-                </p>
-                <p className="text-lg leading-relaxed mb-4">
-                  With a strong foundation in programming languages such as Python, Java, and JavaScript, and a passion for Software/Web development. I&apos;ve developed skills in both frontend and backend technologies through various projects and roles.
-                </p>
                 <p className="text-lg leading-relaxed">
-                  I&apos;m dedicated to contributing my skills to a software development team and making a meaningful impact. When not coding, you can find me bouldering, skiing, or fixing electronics.
+                  Computer Science graduate from University College Cork, with practical experience in full-stack development, cloud
+                  infrastructure, and DevOps practices. Skilled in Python, Java, and JavaScript/TypeScript, with hands-on experience deploying
+                  scalable applications using Docker, Kubernetes, AWS and GCS. Experienced in both academic and professional settings, with a
+                  proven ability to deliver reliable software solutions and automate workflows.
                 </p>
               </div>
             </section>
@@ -76,7 +73,7 @@ export default function AboutPage() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      JavaScript
+                      JavaScript/TypeScript
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
@@ -89,61 +86,115 @@ export default function AboutPage() {
                   <ul className="space-y-1">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Spring Boot & Vaadin
+                      Spring Boot
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      JavaScript
+                      Flask
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Bootstrap & Tailwind
+                      Vaadin
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      React
-                    </li>
-                  </ul>
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-semibold">Backend & Databases</h3>
-                  <ul className="space-y-1">
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Flask & Jinja
+                      React & Vite
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      MySQL & PostgreSQL
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      MongoDB & SQLite
-                    </li>
-                    <li className="flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      RESTful APIs
+                      Tailwind & Bootstrap
                     </li>
                   </ul>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-semibold">DevOps & Tools</h3>
+                  <h3 className="font-semibold">Databases</h3>
                   <ul className="space-y-1">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Git, GitHub & GitLab
+                      PostgreSQL
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Docker & Kubernetes
+                      MySQL
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      Linux & Bash
+                      MongoDB
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
-                      VSCode & JetBrains IDEs
+                      SQLite
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Firestore
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      BigQuery
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold">Cloud & DevOps</h3>
+                  <ul className="space-y-1">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Google Cloud Platform & AWS
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Docker
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Kubernetes
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      CI/CD (GitHub Actions/GitLab CI)
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold">Data Engineering</h3>
+                  <ul className="space-y-1">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Apache Beam
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      ETL Pipelines
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Web Scraping (Playwright)
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3 className="font-semibold">System Administration & Tools</h3>
+                  <ul className="space-y-1">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Windows, MacOS, Linux
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Git (GitLab, GitHub)
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Bash
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      JetBrains, VS Code
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Postman, Insomnia
                     </li>
                   </ul>
                 </div>
@@ -158,7 +209,7 @@ export default function AboutPage() {
                 <div className="border-l-2 border-primary pl-4 pb-2">
                   <div className="flex items-center text-sm text-muted-foreground mb-2">
                     <Calendar className="mr-2 h-4 w-4" />
-                    <span>June 2025 - Present</span>
+                    <span>June 2025 - October 2025</span>
                   </div>
                   <div className="flex items-center mb-2">
                     <Link href={"https://www.fleetops.com/"} target="_blank" rel="noopener noreferrer">
@@ -175,6 +226,14 @@ export default function AboutPage() {
                       <p className="text-muted-foreground">FleetOps • Galway, IE</p>
                     </div>
                   </div>
+                  <ul className="space-y-1 mt-2">
+                    <li>• Created and maintained scalable REST APIs in Python and TypeScript, ensuring reliability and performance.</li>
+                    <li>• Engineered serverless solutions on Google Cloud Services (Firestore, Cloud Run/Functions, PubSub and BigQuery) to improve
+                      scalability and reduce overheads.</li>
+                    <li>• Built ETL pipelines with Apache Beam, enabling efficient data processing.</li>
+                    <li>• Automated workflows through webhook and external API integrations.</li>
+                    <li>• Developed web scraping solutions using Playwright, streamlining data collection and reducing manual data handling.</li>
+                  </ul>
                 </div>
                 <div className="border-l-2 border-primary pl-4 pb-2">
                   <div className="flex items-center text-sm text-muted-foreground mb-2">
@@ -197,11 +256,11 @@ export default function AboutPage() {
                     </div>
                   </div>
                   <ul className="space-y-1 mt-2">
-                    <li>• Developed full-stack Java/Spring Boot applications and APIs, delivering robust and scalable solutions.</li>
-                    <li>• Optimized loading times and efficiency of a data management application by over 30%, while reducing code complexity.</li>
-                    <li>• Deployed applications using Docker and Kubernetes, leveraging CI/CD pipelines for automated and seamless deployments.</li>
-                    <li>• Developed Python scripts to support the LDAP system, facilitating migration and synchronization.</li>
-                    <li>• Designed and implemented custom APIs to interface with large-scale databases, ensuring performance and data integrity.</li>
+                    <li>• Delivered full-stack Java/Spring Boot applications and APIs, delivering robust and scalable solutions.</li>
+                    <li>• Enhanced performance of a data management application, reducing load times by 30% and simplifying code complexity.</li>
+                    <li>• Deployed applications using Docker and Kubernetes, leveraging CI/CD pipelines for seamless delivery.</li>
+                    <li>• Developed Python scripts to support the LDAP system, facilitating the migration and synchronization.</li>
+                    <li>• Constructed custom APIs for large-scale databases, ensuring performance and data integrity.</li>
                   </ul>
                 </div>
               </div>
@@ -228,21 +287,24 @@ export default function AboutPage() {
                       />
                     </Link>
                     <div>
-                      <h3 className="text-xl font-semibold">BSc Computer Science</h3>
+                      <h3 className="text-xl font-semibold">BSc Computer Science - 2.1 Honours</h3>
                       <p className="text-muted-foreground">UCC • Cork, IE</p>
                     </div>
                   </div>
                   <p className="mt-2">
-                    <strong>Year 4:</strong> Android Development, Parallel & Grid Computing, Mobile & Wireless Networks, Network Security, IoT, AI
+                    <strong>Year 4:</strong> Android Development, Parallel & Grid Computing, Mobile & Wireless Networks, Network Security, IOT, AI,
+                    Principles of Compilation, Constraint Programming, Functional Programming
                   </p>
                   <p className="mt-1">
-                    <strong>Year 3:</strong> Team Project (80%), C-Microcontrollers (80%), Advanced Java (65%), Cloud Infrastructure (59%), Ethical Hacking (52%), Networks and Data Communication (49%)
+                    <strong>Year 3:</strong> Team Project, C-Microcontrollers, Advanced Java, Cloud Infrastructure, Ethical Hacking, Networks and Data
+                    Communication
                   </p>
                   <p className="mt-1">
-                    <strong>Year 2:</strong> Logic Design (72%), Intermediate Programming (69%), Information Storage & Management (65%), Usability Engineering (65%), Operating Systems (57%), Networking (56%)
+                    <strong>Year 2:</strong> Logic Design, Intermediate Programming, Information Storage & Management, Usability Engineering, Operating Systems,
+                    Network Computing, Computer Architecture, Algorithms and Data Structures, Java Programming
                   </p>
                   <p className="mt-1">
-                    <strong>Year 1:</strong> Web Development (81%), Programming (Python) (71%), Foundations of Computer Science (66%), Hardware Organization (63%)
+                    <strong>Year 1:</strong> Web Development, Relational Databases, Python Programming, Foundations of Computer Science, Hardware Organization
                   </p>
                 </div>
                 <div className="border-l-2 border-primary pl-4 pb-2">

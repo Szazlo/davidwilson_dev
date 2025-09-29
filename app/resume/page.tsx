@@ -41,7 +41,7 @@ export default function ResumePage() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold">David Wilson</h2>
-                <p className="text-lg text-muted-foreground">Computer Science Student & Software Developer</p>
+                <p className="text-lg text-muted-foreground">Backend Software Engineer | BSc Computer Science</p>
               </div>
               <div className="mt-4 md:mt-0 space-y-1 text-sm">
                 <div className="flex items-center">
@@ -61,10 +61,10 @@ export default function ResumePage() {
             <section className="mb-8">
               <h3 className="text-xl font-semibold mb-3">Professional Summary</h3>
               <p className="text-muted-foreground">
-                Final year Computer Science student at University College Cork (UCC), eager to gain practical experience in the field through
-                graduate roles and other opportunities. With a strong foundation in programming languages such as Python, Java, and JavaScript,
-                and a passion for Software/Web development. Dedicated to contributing skills to a software development team and making a
-                meaningful impact.
+                Computer Science graduate from University College Cork, with practical experience in full-stack development, cloud
+                infrastructure, and DevOps practices. Skilled in Python, Java, and JavaScript/TypeScript, with hands-on experience deploying
+                scalable applications using Docker, Kubernetes, AWS and GCS. Experienced in both academic and professional settings, with a
+                proven ability to deliver reliable software solutions and automate workflows.
               </p>
             </section>
 
@@ -76,11 +76,22 @@ export default function ResumePage() {
                 <div>
                   <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-1">
                     <div>
-                      <h4 className="text-lg font-medium">Bachelor of Science in Computer Science</h4>
+                      <h4 className="text-lg font-medium">BSc Computer Science - 2.1 Honours</h4>
                       <p className="text-muted-foreground">University College Cork</p>
                     </div>
                     <div className="text-sm text-muted-foreground mt-1 md:mt-0">
                       <p>2021 - 2025</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-1">
+                    <div>
+                      <h4 className="text-lg font-medium">Leaving Certificate</h4>
+                      <p className="text-muted-foreground">St. Joseph&apos;s Patrician College (The Bish) • Galway, Ireland</p>
+                    </div>
+                    <div className="text-sm text-muted-foreground mt-1 md:mt-0">
+                      <p>2019 - 2021</p>
                     </div>
                   </div>
                 </div>
@@ -94,8 +105,8 @@ export default function ResumePage() {
                 <div>
                   <h4 className="font-medium mb-2">Programming Languages</h4>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>JavaScript/TypeScript</li>
                     <li>Python</li>
+                    <li>JavaScript/TypeScript</li>
                     <li>Java</li>
                     <li>C</li>
                   </ul>
@@ -103,37 +114,51 @@ export default function ResumePage() {
                 <div>
                   <h4 className="font-medium mb-2">Web Technologies</h4>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>React, Next.js</li>
-                    <li>Supabase, Spring Boot, Vaadin</li>
-                    <li>Node.js, Vite, Bun</li>
-                    <li>RESTful APIs</li>
+                    <li>Spring Boot</li>
+                    <li>Flask</li>
+                    <li>Vaadin</li>
+                    <li>React & Vite</li>
+                    <li>Tailwind & Bootstrap</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-medium mb-2">Databases & Tools</h4>
+                  <h4 className="font-medium mb-2">Databases</h4>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>PostgreSQL, MongoDB</li>
-                    <li>Git, GitHub</li>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>SQLite</li>
+                    <li>Firestore</li>
+                    <li>BigQuery</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium mb-2">Cloud & DevOps</h4>
+                  <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                    <li>Google Cloud Platform % AWS</li>
                     <li>Docker</li>
-                    <li>AWS, Vercel</li>
+                    <li>Kubernetes</li>
+                    <li>CI/CD (GitHub Actions/GitLab CI)</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-medium mb-2">Other tools</h4>
+                  <h4 className="font-medium mb-2">Data Engineering</h4>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>VS, JetBrains</li>
-                    <li>Insomnia, Postman, Bruno</li>
-                    <li>Lens, Kubernetes</li>
-                  </ul>
-                <div>
-                  <h4 className="font-medium mb-2">Other Skills</h4>
-                  <ul className="list-disc list-inside text-muted-foreground space-y-1">
-                    <li>Agile Methodologies</li>
-                    <li>Problem Solving</li>
-                    <li>Team Collaboration</li>
+                    <li>Apache Beam</li>
+                    <li>ETL Pipelines</li>
+                    <li>Web Scraping</li>
                   </ul>
                 </div>
-              </div>
+                <div>
+                  <h4 className="font-medium mb-2">System Administration & Tools</h4>
+                  <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                    <li>Windows, MacOS, Linux</li>
+                    <li>Git (GitLab, GitHub)</li>
+                    <li>Bash/Shell scripting</li>
+                    <li>JetBrains, VS Code</li>
+                    <li>Postman & Insomnia</li>
+                  </ul>
+                </div>
               </div>
             </section>
 
@@ -142,6 +167,26 @@ export default function ResumePage() {
               <h3 className="text-xl font-semibold mb-4">Work Experience</h3>
               
               <div className="space-y-6">
+                <div>
+                  <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
+                    <div>
+                      <h4 className="text-lg font-medium">Software Engineer L1</h4>
+                      <p className="text-muted-foreground">FleetOps</p>
+                    </div>
+                    <div className="text-sm text-muted-foreground mt-1 md:mt-0">
+                      <p>June 2025 - October 2025</p>
+                      <p>Galway, IE</p>
+                    </div>
+                  </div>
+                  <ul className="list-disc list-inside text-muted-foreground space-y-1 mt-2">
+                    <li>Created and maintained scalable REST APIs in Python and TypeScript, ensuring reliability and performance.</li>
+                    <li>Engineered serverless solutions on Google Cloud Services (Firestore, Cloud Run/Functions, PubSub and BigQuery) to improve
+                      scalability and reduce overheads.</li>
+                    <li>Built ETL pipelines with Apache Beam, enabling efficient data processing.</li>
+                    <li>Automated workflows through webhook and external API integrations.</li>
+                    <li>Developed web scraping solutions using Playwright, streamlining data collection and reducing manual data handling.</li>
+                  </ul>
+                </div>
                 <div>
                   <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
                     <div>
@@ -154,11 +199,11 @@ export default function ResumePage() {
                     </div>
                   </div>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1 mt-2">
-                    <li>Developed full-stack Java/Spring Boot applications and APIs, delivering robust and scalable solutions</li>
-                    <li>Optimized loading times and efficiency of a data management application by over 30%, while reducing code complexity</li>
-                    <li>Deployed applications using Docker and Kubernetes, leveraging CI/CD pipelines for automated and seamless deployments</li>
-                    <li>Developed Python scripts to support the LDAP system, facilitating the migration and synchronization</li>
-                    <li>Designed and implemented custom APIs to interface with large-scale databases, ensuring performance and data integrity</li>
+                    <li>Delivered full-stack Java/Spring Boot applications and APIs, delivering robust and scalable solutions.</li>
+                    <li>Enhanced performance of a data management application, reducing load times by 30% and simplifying code complexity.</li>
+                    <li>Deployed applications using Docker and Kubernetes, leveraging CI/CD pipelines for seamless delivery.</li>
+                    <li>Developed Python scripts to support the LDAP system, facilitating the migration and synchronization.</li>
+                    <li>Constructed custom APIs for large-scale databases, ensuring performance and data integrity.</li>
                   </ul>
                 </div>
               </div>
